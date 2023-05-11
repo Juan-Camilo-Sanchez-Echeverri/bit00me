@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(100, 150, 132);
+  padding: 10px;
+}
+
+body {
+  background-color: rgb(220, 220, 220);
+}
+
+.enlace-nav {
+  color: white;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-right: 65px;
+}
+
+#info-personal {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+h1,
+h2,
+p {
+  margin: 20px 0;
+  padding: 5px 0;
+  text-align: center;
+}
+
+figure {
+  margin: 20px 0;
+}
+
+img {
+  width: 200px;
+  margin: 20px 0;
+  border-radius: 2pc;
+}
+
+figcaption {
+  padding: 5px 0;
+  font-style: oblique;
+}
+
+#redes {
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+.git-hub {
+  padding: 20px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#intereses,
+#hobbies,
+#projects {
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+.list {
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+dt {
+  font-style: italic;
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 20px;
+}
+
+#contacto {
+  margin: 30px 0;
+  text-align: center;
+}
+
+fieldset {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 13px;
+}
+legend {
+  font-weight: bold;
+  padding: 0 10%;
+}
+label{
+  margin: 10px;
+  font-weight: bold;
+}
+
+input{
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#email{
+  margin-left: 17px;
+}
+
+#tel{
+  margin-left: -3px;
+  margin-bottom: 20px;
+}
+
+textarea{
+  margin-left: 610px;
+  display:block;
+  margin: 20px 610px;
+}
+
+button{
+  padding: 20px;
+  width: 140px;
+  background-color: rgb(100, 150, 132);
+  border-radius: 1pc;
+  cursor: pointer;
+  font-size: 20px;
+
+}
