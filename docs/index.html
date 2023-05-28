@@ -13,14 +13,14 @@
 
 <body>
   <header>
-    <div class="container header__container">
+    <div class="header__container">
       <h5>Hey Bienvenido. Soy</h5>
       <h1>Camilo Sanchez</h1>
       <h5 class="text-light">Desarrollador Backend Jr</h5>
-      <div class="cta">
+      <section class="downloads">
         <a href="./HV.JuanCamiloSanchezEcheverri.pdf" download class="btn">Descargar CV</a>
         <a href="#contact" class="btn btn-primary">Déjame un mensaje</a>
-      </div>
+      </section>
       <div class="header__socials">
         <a href="https://www.linkedin.com/in/juan-camilo-sanchez-echeverri/" target="_blank">
           <i class="bi bi-linkedin"></i>
@@ -55,7 +55,7 @@
       <div class="container about__container">
         <div class="about__me">
           <div class="about__me-image">
-            <img src="./fotoPerfil.jpg" alt="Foto Juan" />
+            <img src="./img/fotoDePerfil.jpg" alt="Foto Juan" />
           </div>
         </div>
 
@@ -193,7 +193,7 @@
         </article>
       </div>
 
-      <form ref="{form}" onSubmit="{sendEmail}">
+      <form>
         <input type="text" name="name" placeholder="Escriba su nombre" required />
         <input type="email" name="email" placeholder="Escriba su correo" required />
         <textarea name="message" rows="7" placeholder="Escriba su mensaje" required></textarea>
@@ -218,6 +218,5 @@
 
   </footer>
 </body>
-<script src="./js/index.js"></script>
 
 </html>
