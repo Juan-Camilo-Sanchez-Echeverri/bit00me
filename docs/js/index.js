@@ -16,14 +16,14 @@ $form.addEventListener('submit', (event) => {
     message: $message,
   };
 
-  let info = `<h2>Bienvendid@  ${information.name} gracias por visitar mi sitio Web, espero contactarte muy pronto y compartir contigo.</h2><a href="../../docs/index.html" class="btn btn-primary">Continuar</a>`;
+  let info = `<h2>Bienvendid@  ${information.name} gracias por visitar mi sitio Web, espero contactarte muy pronto y compartir contigo.</h2><a href="../index.html" class="btn btn-primary">Continuar</a>`;
 
   cambioEstilos();
 
   $gratitude.innerHTML = info;
-  $form.reset();
-
   console.log(information);
+
+  $form.reset();
 });
 
 function cambioEstilos() {
