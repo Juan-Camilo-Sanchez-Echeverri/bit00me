@@ -545,6 +545,23 @@ footer a {
   font-size: 0.8rem;
 }
 
+#gratitude{
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-bg-variant);
+  border-radius: 20px;
+  text-align: center;
+  margin: 40px;
+  padding: 40px;
+  display: none;
+}
+
+#gratitude h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+
 
 /* ============= Responsive ============= */
 
